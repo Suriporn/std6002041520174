@@ -8,7 +8,8 @@ class App extends React.Component{
                 //component about
                 <View>
                     <Text style={{fontSize: 50 }}>
-                        Suriporn Rueangdet 
+                        Suriporn Rueangdet ...
+                        
                     </Text>
                 </View>
         );
