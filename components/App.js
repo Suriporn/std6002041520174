@@ -7,9 +7,10 @@ class App extends React.Component{
         return(
                 //component about
                 <View>
-                    <Text style={{fontSize: 50 }}>
-                        Suriporn Rueangdet ...
+                    <Text style={{fontSize: 40 }}>
+                        Suriporn Rueangdet  
                         
+                         
                     </Text>
                 </View>
         );
