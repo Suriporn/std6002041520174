@@ -3,14 +3,14 @@ import React from 'react';
 import { View, Text} from'react-native';
 //write component
 class App extends React.Component{
-    CanvasRenderingContext2D(){
+    render() {
         return(
                 //component about
-                <view>
-                    <Text>
-                        Hello World
+                <View>
+                    <Text style={{fontSize: 50 }}>
+                        Suriporn Rueangdet 
                     </Text>
-                </view>
+                </View>
         );
     }
 }
