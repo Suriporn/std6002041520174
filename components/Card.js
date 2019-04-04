@@ -15,7 +15,7 @@ class Card extends Component {
 
                         <View style={{marginTop: 20, matginLeftt: 10}}>  
                             <Text> Cat </Text> 
-                            <Text> Cat </Text>  
+                            <Text> Lonely </Text>  
                         </View >  
 
                         </View > 
@@ -29,22 +29,15 @@ class Card extends Component {
                     </CardSection>
            
                     <CardSection>
-                        <View style={styles.button}> 
+                        <View style={{ alignItems: "center" }}> 
                             <View style = {{ width: 150 }}>
-                            <Button title="Click" />
+                                <Button title="Click" />
+                            </View>
                         </View>
-                    </View>
                     </CardSection>
             </View>
         );
     }
 }
-//style
-const styles = {
-    button: {
-        aligmItems: 'center',
-        justtifyContent: 'center',
-        margin: 10
-    }
-}
+
 export default Card;
