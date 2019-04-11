@@ -73,7 +73,11 @@ export default class Login extends React.Component{
                         value={this.state.password}
                         onChangeText={(text) => this.setState({ password: text })}
                     />
-                    <Button title="Login" color = "#8B5927" onPress={this.goLogin.bind(this)} />
+                    <Button
+                        onPress={this.goLogin.bind(this)}
+                        title="Login"
+                        color="black"
+/>
             </View>
         );
     }
